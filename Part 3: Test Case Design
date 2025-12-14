@@ -1,0 +1,19 @@
+Testcase Design
+1. Log in as standard_user.
+2. Verify that the correct error messages appears if username is left blank
+3. Verify that the correct error messages appears if password is left blank
+4. Add items to cart and verify that the cart count reflect correctly
+5. Verify if items are sorted correctly base on price (high to low).
+6. Verify if items are sorted correctly base on Letter (A to Z).
+7. Proceed to Checkout items
+8. Verify error displayed if some or all required fields are in checkout screen left unpopulated
+9. Fill all the required fields
+10. Verify  order details 
+11. Verify Successful order message 
+12. Add items to Cart
+13. Remove items to cart
+14. Verify if cart are empty
+
+
+Which 3 Testcase are to automate first?
+Testcase 1-3 for the main reason that It is the most if not test case that are repetitive and most scenarios go through it as its pre-requisites
