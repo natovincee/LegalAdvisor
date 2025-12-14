@@ -90,7 +90,7 @@ public class CheckoutFlowTest {
             driver.findElement(By.id("react-burger-menu-btn")).click();
             wait.until(ExpectedConditions.elementToBeClickable(By.id("logout_sidebar_link"))).click();
 
-            System.out.println("TEST PASSED ✅");
+            System.out.println("TEST PASSED");
 
         } finally {
             driver.quit();
